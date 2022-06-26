@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #404EED;
+    --cor2: #1E246E;
+    --cor3: #8991F0;
+    --cor4: #3F426E;
+    --cor5: #323EBA;
+
+    --fonte1: 'Roboto', sans-serif;
+    --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte3: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
+html, body {
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    height: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.356);
+}
+
+header h1 {
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: var(--fonte1);
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    font-family: var(--fonte2);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+img#perfil {
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    padding: 10px;
+}
+
+section.linha {
+    display: inline-block;
+}
+
+section#infos {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+section#infos img {
+    position: relative;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+section#infos img:hover {
+    top: -2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    border-radius: 100px;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.349);
+}
+
+h1#portfolios {
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte3);
+    font-weight: normal;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+section.imagem {
+    margin: 0px -15px;
+    padding: 10px;
+    height: 300px;
+    font-family: var(--fonte1);
+
+}
+
+ a.quadrado {
+    text-decoration: none;
+    color: white;
+}
+
+a.quadrado:hover h2{
+    text-decoration: underline;
+}
+
+section.imagem:hover {
+    position:relative;
+    top: -10px;
+    text-decoration: underline;
+}
+
+section#arte {
+    background: black url('../imagens/wallpaper-teatro-pq.jpg') center top no-repeat fixed;
+    background-size: cover;
+}
+
+section.imagem  h2 {
+    display: inline-block;
+    color:white;
+    background-color: rgba(30, 35, 110, 0.651);
+    position: relative;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#dev {
+    background: black url('../imagens/wallpaper-dev.jpg') center top no-repeat fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+@media (max-width: 750px){
+    header {
+        height: 200px;
+    }
+    
+    img#perfil {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    header h1 {
+        font-size: 7vw;
+    }
+
+    header a {
+        font-size: 1.5vh;
+    }
+}
