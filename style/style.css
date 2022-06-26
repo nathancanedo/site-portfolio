@@ -115,7 +115,7 @@ a.quadrado:hover h2{
 }
 
 section#arte {
-    background: black url('../imagens/wallpaper-teatro-pq.jpg') center top no-repeat fixed;
+    background: black url('../imagens/wallpaper-teatro-pq.jpg') center bottom no-repeat fixed;
     background-size: cover;
 }
 
