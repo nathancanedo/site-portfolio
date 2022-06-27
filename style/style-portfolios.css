@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
-body {
-    line-height: 3em;
-}
-
 main {
     max-width: 1000px;
     text-align: center;
-
+    line-height: 3em;
     border-radius: 0px 0px 10px 10px;
+    padding: 20px 0px;
+}
+
+main h1 {
+    font-family: var(--fonte2);
+    text-decoration: underline;
+}
+
+main p , a {
+    font-family: var(--fonte2);
 }
