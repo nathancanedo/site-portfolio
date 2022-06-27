@@ -22,7 +22,7 @@
 }
 
 html, body {
-    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    background-image: linear-gradient(to right, var(--cor2), var(--cor4));
     height: 100%;
     background-attachment: fixed;
 }
