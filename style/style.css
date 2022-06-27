@@ -102,7 +102,6 @@ section.imagem {
     padding: 10px;
     height: 450px;
     font-family: var(--fonte1);
-
 }
 
  a.quadrado h2{
@@ -118,6 +117,7 @@ a.quadrado:hover h2{
 section#arte {
     background: black url('../imagens/wallpaper-teatro-pq.jpg') center bottom no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 section.imagem  h2 {
