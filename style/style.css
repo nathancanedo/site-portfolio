@@ -105,9 +105,10 @@ section.imagem {
 
 }
 
- a.quadrado {
+ a.quadrado h2{
     text-decoration: none;
     color: white;
+    border-radius: 30px;
 }
 
 a.quadrado:hover h2{
