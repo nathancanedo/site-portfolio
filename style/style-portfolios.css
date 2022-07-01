@@ -39,4 +39,11 @@ ul {
   img#voltar {
     width: 64px;
     height: 64px;
+    border-radius: 50%;
+  }
+
+  img#voltar:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.425);
+    transition: transform .3s;
   }
