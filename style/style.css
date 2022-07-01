@@ -82,13 +82,15 @@ section#infos img:hover {
     border-radius: 100px;
 }
 
-
-
 main {
-    background-color: var(--cor3);
     margin: auto;
     padding: 50px 15px 0px 15px;
     box-shadow: inset 4px 2px 7px rgba(0, 0, 0, 0.349);
+    background-color: white;
+}
+
+main#index {
+    background: var(--cor3) url('../imagens/cloud-pq.png') center center;
 }
 
 article#infos {
@@ -97,7 +99,9 @@ article#infos {
     margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.349);
+    margin-bottom: 50px;
 }
+
 
 article#infos p {
     padding: 10px;
@@ -118,7 +122,10 @@ h1.titulos {
 
 h1#portfolios {
     color: white;
-    padding: 50px 0px 20px 0px;
+    padding: 10px;
+    margin: 0px -15px;
+    /* border-radius: 20px 20px 0px 0px;  */
+    background-color: var(--cor2);
 }
 
 section.imagem {
