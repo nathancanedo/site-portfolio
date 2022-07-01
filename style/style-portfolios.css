@@ -6,6 +6,11 @@ main {
     line-height: 3em;
     border-radius: 0px 0px 10px 10px;
     padding: 20px 0px;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.349);
+}
+
+main p {
+    text-align: center;
 }
 
 main h1 {

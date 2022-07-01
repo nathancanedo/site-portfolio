@@ -28,12 +28,13 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to left, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     padding: 30px;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.356);
 }
 
 header h1 {
+    color: white;
     font-size: 3em;
     padding-bottom: 10px;
     font-weight: 700;
@@ -42,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.4em;
     font-family: var(--fonte2);
 }
@@ -54,7 +55,7 @@ header a:hover {
 img#perfil {
     height: 250px;
     width: 250px;
-    border-radius: 1000px;
+    border-radius: 50%;
     padding: 10px;
 }
 
@@ -72,6 +73,7 @@ section#infos img {
     position: relative;
     margin-top: 15px;
     margin-right: 10px;
+    width: 32px;
 }
 
 section#infos img:hover {
@@ -80,20 +82,43 @@ section#infos img:hover {
     border-radius: 100px;
 }
 
+
+
 main {
-    background-color: white;
+    background-color: var(--cor3);
     margin: auto;
-    padding: 0px 15px;
-    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.349);
+    padding: 50px 15px 0px 15px;
+    box-shadow: inset 4px 2px 7px rgba(0, 0, 0, 0.349);
 }
 
-h1#portfolios {
+article#infos {
+    background-color:white;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.349);
+}
+
+article#infos p {
+    padding: 10px;
+    font-family: var(--fonte2);
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1.titulos {
     text-align: center;
     padding: 20px;
     font-family: var(--fonte3);
     font-weight: normal;
     font-size: 3em;
     text-decoration: underline;
+}
+
+h1#portfolios {
+    color: white;
+    padding: 50px 0px 20px 0px;
 }
 
 section.imagem {
@@ -158,4 +183,11 @@ section#dev {
     header a {
         font-size: 1.7vh;
     }
+    
+    article#infos p {
+        text-align: justify;
+        font-size: 1.1em;
+        line-height: 2.3em;
+    }
+
 }
