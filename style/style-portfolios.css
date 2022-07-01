@@ -50,6 +50,7 @@ ul {
 
   @media (max-width: 750px) {
     .imagens {
-        width: 100%;
+        width: 95vw;
+        height: 95vw;
     }
   }
