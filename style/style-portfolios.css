@@ -47,3 +47,9 @@ ul {
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.425);
     transition: transform .3s;
   }
+
+  @media (max-width: 750px) {
+    .imagens {
+        width: 100%;
+    }
+  }
