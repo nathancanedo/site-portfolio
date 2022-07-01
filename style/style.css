@@ -30,7 +30,7 @@ html, body {
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     padding: 30px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.356);
 }
 
 header h1 {
