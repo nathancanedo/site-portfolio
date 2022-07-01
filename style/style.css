@@ -90,7 +90,7 @@ main {
 }
 
 main#index {
-    background: var(--cor3) url('../imagens/cloud-pq.png') center center;
+    background: var(--cor3) url('../imagens/cloud-pq.png') center center fixed;
 }
 
 article#infos {
