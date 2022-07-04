@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<atom:id>tag:blogger.com,1999:blog-1564795479202986167</atom:id>
+<lastBuildDate>Sat, 29 Feb 2020 00:24:16 +0000</lastBuildDate>
+<category>Podcast</category>
+<title>JooJCast</title>
+<description>Um podcast aleatório sobre assuntos mais aleatórios ainda...</description>
+<link>https://joojcast.blogspot.com/</link>
+<managingEditor>noreply@blogger.com (JooJCast)</managingEditor>
+<generator>Blogger</generator>
+<openSearch:totalResults>1</openSearch:totalResults>
+<openSearch:startIndex>1</openSearch:startIndex>
+<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/JoojCast" />
+<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="joojcast" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+<media:copyright>2018 © JooJCast</media:copyright>
+<media:thumbnail url="https://i.imgur.com/zcfFuZm.jpg" />
+<media:keywords>Comédia,JoooJCast</media:keywords>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Comedy</media:category>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Games &amp; Hobbies/Video Games</media:category>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">TV &amp; Film</media:category>
+<itunes:owner>
+<itunes:email>joojcast@gmail.com</itunes:email>
+<itunes:name>JooJCast</itunes:name>
+</itunes:owner>
+<itunes:author>JooJCast</itunes:author>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="https://i.imgur.com/zcfFuZm.jpg" />
+<itunes:keywords>Comédia,JoooJCast</itunes:keywords>
+<itunes:subtitle>Te agarro pela cabeça e te JooJ</itunes:subtitle>
+<itunes:summary>Um podcast aleatório sobre coisas mais aleatórias ainda...</itunes:summary>
+<itunes:category text="Comedy" />
+<itunes:category text="Games &amp; Hobbies">
+<itunes:category text="Video Games" />
+</itunes:category>
+<itunes:category text="TV &amp; Film" />
+<image>
+<link>https://joojcast.blogspot.com/</link>
+<url>https://i.imgur.com/zcfFuZm.jpg</url>
+<title>JooJCast</title>
+</image>
+<feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">JoojCast</feedburner:emailServiceId>
+<feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">https://feedburner.google.com</feedburner:feedburnerHostname>
+<item>
+<guid isPermaLink="false">tag:blogger.com,1999:blog-1564795479202986167.post-5431011751965466867</guid>
+<pubDate>Tue, 06 Nov 2018 01:50:00 +0000</pubDate>
+<atom:updated>2018-11-05T17:51:16.143-08:00</atom:updated>
+<category domain="http://www.blogger.com/atom/ns#">Podcast</category>
+<title>JooJCast #00 - Teste de Feed</title>
+<description>Esse é o JooJCast número 0 apenas um teste de Feed.&lt;br /&gt;&lt;br /&gt;Bancada:&lt;br /&gt;&lt;br /&gt;Ninguém&lt;br /&gt;Ninguém mesmo&lt;br /&gt;É só um teste poha&lt;br /&gt;&lt;br /&gt;2018© JoojCast&lt;br /&gt;&lt;br /&gt;&lt;a href="https://archive.org/download/Ezclyir/Ezclyir.mp3"&gt;https://archive.org/download/Ezclyir/Ezclyir.mp3&lt;/a&gt;</description>
+<link>https://joojcast.blogspot.com/2018/11/joojcast-00-teste-de-feed_0.html</link>
+<author>joojcast@gmail.com (JooJCast)</author>
+<thr:total>0</thr:total>
+<enclosure url="https://archive.org/download/Ezclyir/Ezclyir.mp3" length="667888" type="audio/mpeg" />
+<media:content url="https://archive.org/download/Ezclyir/Ezclyir.mp3" fileSize="667888" type="audio/mpeg" />
+<itunes:explicit>no</itunes:explicit>
+<itunes:subtitle>Esse é o JooJCast número 0 apenas um teste de Feed. Bancada: Ninguém Ninguém mesmo É só um teste poha 2018© JoojCast https://archive.org/download/Ezclyir/Ezclyir.mp3</itunes:subtitle>
+<itunes:author>JooJCast</itunes:author>
+<itunes:summary>Esse é o JooJCast número 0 apenas um teste de Feed. Bancada: Ninguém Ninguém mesmo É só um teste poha 2018© JoojCast https://archive.org/download/Ezclyir/Ezclyir.mp3</itunes:summary>
+<itunes:keywords>Comédia,JoooJCast</itunes:keywords>
+</item>
+<language>pt-br</language>
+<copyright>2018 © JooJCast</copyright>
+<media:credit role="author">JooJCast</media:credit>
+<media:rating>nonadult</media:rating>
+<media:description type="plain">Te agarro pela cabeça e te JooJ</media:description>
+</channel>
+</rss>
