@@ -27,6 +27,20 @@ html, body {
     background-attachment: fixed;
 }
 
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--cor2);
+  }
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor3);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     padding: 30px;
